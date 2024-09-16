@@ -1,0 +1,76 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.flex{
+  display: flex;
+}
+.just-center {
+  justify-content: center;
+}
+.align-center{
+  align-items: center;
+}
+.body{
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  background-color:  #473A8D;
+}
+.start-btn{
+  background-color: #0AB306;
+  font-size: 20px;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 25px;
+  padding-inline: 60px
+}
+.container{
+  background-color: white;
+  height: 75vh;
+  width: 80vw;
+  padding: 20px;
+  flex-direction: column;
+}
+.options{
+  flex-wrap: wrap;
+  padding-block: 80px;
+}
+.option{
+  width: 30vw;
+  margin: 15px;
+  background-color: rgb(92, 166, 227);
+  text-align: center;
+  padding: 15px;
+  border-radius: 25px;
+  color: white;
+}
+.buttons button{
+  margin: 20px;
+  padding: 5px;
+  padding-inline: 20px ;
+}
+.result-bx{
+  background-color: white;
+  width:45vw;
+  padding: 50px;
+  flex-direction: column;
+}
+.result-text{
+  justify-content: space-between;
+  width: 100%;
+  margin-block: 10px;
+  font-weight: bold;
+}
+.play-btn{
+  border: 2px solid blue;
+  color: blue;
+  padding: 5px 10px;
+  margin-right: 50px;
+}
+.home-btn{
+  padding:5px 10px;
+  border: 2px solid green;
+  color: #0AB306;
+}
